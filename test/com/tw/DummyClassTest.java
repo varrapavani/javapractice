@@ -2,12 +2,13 @@ package com.tw;
 
 import org.junit.jupiter.api.Test;
 
-import static org.junit.jupiter.api.Assertions.*;
+import static org.junit.jupiter.api.Assertions.assertEquals;
+import static org.junit.jupiter.api.Assertions.assertTrue;
 
 class DummyClassTest {
     @Test
     void name() {
-        assertEquals(true, true);
+        assertTrue(true);
     }
 
     @Test
@@ -18,6 +19,6 @@ class DummyClassTest {
 
     @Test
     void rectangle() {
-        
+
     }
 }

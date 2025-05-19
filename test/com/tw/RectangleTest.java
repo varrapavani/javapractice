@@ -2,7 +2,7 @@ package com.tw;
 
 import org.junit.jupiter.api.Test;
 
-import static org.junit.jupiter.api.Assertions.*;
+import static org.junit.jupiter.api.Assertions.assertEquals;
 
 class RectangleTest {
     @Test
@@ -19,7 +19,7 @@ class RectangleTest {
 
     @Test
     void calculatePerimeterOfZeroLengthRectangle() {
-        Rectangle rectangle = new Rectangle(0,10);
-        assertEquals(20,rectangle.perimeter());
+        Rectangle rectangle = new Rectangle(0, 10);
+        assertEquals(20, rectangle.perimeter());
     }
 }

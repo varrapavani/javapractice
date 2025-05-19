@@ -1,6 +1,6 @@
 package com.tw;
 
-public class Rectangle {
+public class Rectangle implements Shapes {
     private final int length;
     private final int width;
 
@@ -15,6 +15,6 @@ public class Rectangle {
 
 
     public int perimeter() {
-        return 2 *(this.length + this.width);
+        return 2 * (this.length + this.width);
     }
 }
