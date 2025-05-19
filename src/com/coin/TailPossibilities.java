@@ -12,4 +12,8 @@ public class TailPossibilities {
     public int getChanceOfTails(int numberOfCoins) {
         return numberOftails * numberOfCoins;
     }
+
+    public int getChancesOfNotTails() {
+        return totalSides - numberOftails;
+    }
 }
