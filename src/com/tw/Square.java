@@ -1,19 +1,9 @@
 package com.tw;
 
-public class Square implements Shapes {
-    private final int length;
+public class Square extends Rectangle {
 
-    public Square(int length) {
-        this.length = length;
+    public Square(int side) {
+        super(side,side);
     }
 
-    @Override
-    public int area() {
-        return this.length * this.length;
-    }
-
-    @Override
-    public int perimeter() {
-        return 0;
-    }
 }
