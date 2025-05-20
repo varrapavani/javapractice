@@ -1,8 +1,6 @@
-package com.maths;
+package com.measurements;
 
 import org.junit.jupiter.api.Test;
-
-import static org.junit.jupiter.api.Assertions.*;
 
 class IncTest {
     @Test

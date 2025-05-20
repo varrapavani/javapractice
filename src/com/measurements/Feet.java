@@ -1,4 +1,4 @@
-package com.maths;
+package com.measurements;
 
 public class Feet {
 
