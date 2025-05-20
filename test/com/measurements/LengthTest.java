@@ -27,6 +27,13 @@ class LengthTest {
     }
 
     @Test
+    void addInchesAndCentimeters() {
+        Length inch = Length.fromInch(2);
+        Length centimeter = Length.fromCentimeter(2.5);
+        assertEquals(Length.fromInch(3),inch.add(centimeter));
+    }
+
+    @Test
     void addInches() {
         Length inch1 = Length.fromInch(1);
         Length inch2 = Length.fromInch(1);

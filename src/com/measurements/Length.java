@@ -44,6 +44,7 @@ public class Length {
     }
 
     public Length add(Length other) {
-        return new Length(this.value + other.value);
+        double finalValue = this.value + other.value;
+        return Length.fromInch(finalValue / 25);
     }
 }
